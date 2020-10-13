@@ -1,0 +1,88 @@
+@media only screen and (max-width: 768px) {
+  .User {
+    flex: 0.4 !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .User {
+    flex: 0 !important;
+    display: none !important;
+  }
+}
+.User {
+  flex-direction: column;
+  flex: 0.2;
+  display: flex;
+}
+.UserHeader {
+  padding: 12px 20px;
+  display: flex;
+
+  align-items: center;
+}
+.UserHeader .MuiSvgIcon-root {
+  color: #81868c;
+}
+.UserHeader__Name {
+  font-size: 12px;
+  color: #81868c;
+  justify-content: flex-end;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+}
+.UserApp {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+.UserApp__DotIcon {
+  font-size: 12px;
+  color: #81868c;
+  justify-content: flex-end;
+  display: flex;
+  flex: 1;
+}
+
+.UserApp__DotIcon .MuiSvgIcon-root {
+  color: #81868c;
+}
+.UserApp__Icon__Position {
+  width: 18px;
+}
+.UserInfo__Pro {
+  display: flex;
+  justify-content: center;
+}
+.UserInfo__ProImage {
+  width: 120px;
+  height: 120px;
+}
+.UserInfo__ProName {
+  font-size: 24px;
+  text-align: center;
+}
+.UserInfo__ProArea {
+  font-size: 12px;
+  color: #81868c;
+  text-align: center;
+  border-bottom: 1px solid #81868c40;
+  padding-bottom: 20px;
+}
+.UserInfo__ProFlex {
+  display: flex;
+  padding: 10px;
+  font-size: 12px;
+  margin: 0px 10px;
+  border-bottom: 1px solid #81868c40;
+}
+.UserInfo__ProLeft {
+  font-weight: bold;
+  width: 100%;
+  color: #6a6f74;
+}
+.UserInfo__ProRight {
+  color: #81868c;
+  text-align: right;
+  width: 100%;
+}

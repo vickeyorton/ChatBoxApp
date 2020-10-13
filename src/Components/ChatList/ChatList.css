@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+  .ChatList {
+    display: none !important;
+  }
+}
+
+.ChatList {
+  background: #1d232a;
+  flex-direction: column;
+  flex: 0.2;
+  display: flex;
+}
+.ChatList__Header {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.ChatList__Header__Search {
+  background: #363d45;
+  border-radius: 20px;
+  display: flex;
+  height: 35px;
+  width: 100%;
+  align-items: center;
+}
+.ChatList__Header__Search .MuiSvgIcon-root {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.ChatList__Header__Search > input {
+  outline-width: 0;
+  margin-left: 10px;
+}
+.ChatList__Header__Search__Text {
+  color: #d3d3d3;
+  background: #363d45;
+  border: none;
+}
+
+.ChatList__ContactList {
+  padding: 15px 10px;
+  display: flex;
+}
+.ChatList__ContactList__Info {
+  width: 100%;
+  padding: 0px 5px;
+}
+.ChatList__ContactList__Name {
+  color: #ffffff;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.ChatList__ContactList__FullName {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ChatList__ContactList__NameDot {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.ChatList__ContactList__MessInfo {
+  color: #888888;
+  display: flex;
+  font-size: 12px;
+}
+.ChatList__ContactList__LastMessage {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ChatList__ContactList__seenTime {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}

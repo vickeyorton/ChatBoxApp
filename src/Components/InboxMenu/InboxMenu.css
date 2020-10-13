@@ -1,0 +1,66 @@
+@media only screen and (max-width: 768px) {
+  .InboxMenu {
+    display: none !important;
+  }
+}
+.InboxMenu {
+  background: #1d232a;
+  flex-direction: column;
+  flex: 0.2;
+  display: flex;
+}
+.InboxMenu__Header {
+  color: #ffffff;
+  display: flex;
+  padding: 12px;
+}
+.InboxMenu__Header__Left {
+  padding-left: 20px;
+  font-size: 24px;
+}
+.InboxMenu__Header__Right {
+  /* padding-right: 20px; */
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+}
+.InboxMenu__Header__Title {
+  font-size: 22px;
+  padding: 10px;
+}
+.InboxMenu__Header__Icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.InboxMenu__Header__Icon .MuiSvgIcon-root {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.InboxMenu__Content {
+  color: #888888;
+}
+.InboxMenu__Content__Group {
+  padding: 10px 0px;
+  border-bottom: 1px solid #888888;
+}
+.InboxMenu__Content__Group__List__Active {
+  background: #282e36;
+}
+.InboxMenu__Content__Group__List {
+  display: flex;
+  padding: 10px;
+  font-size: 14px;
+}
+.InboxMenu__Content__Group__ListLeft {
+  width: 100%;
+}
+.InboxMenu__Content__Group__List__Active .InboxMenu__Content__Group__ListLeft {
+  color: #ffffff;
+}
+.InboxMenu__Content__Group__ListRight {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: #ffffff;
+}

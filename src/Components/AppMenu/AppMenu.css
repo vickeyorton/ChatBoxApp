@@ -1,0 +1,24 @@
+.AppMenu {
+  background: #1d232a;
+  /* height: 100vh; */
+  flex-direction: column;
+  flex: 0.05;
+  display: flex;
+}
+.AppMenu__Header {
+  display: flex;
+  justify-content: center;
+}
+.AppMenu__Icon {
+  display: flex;
+  justify-content: center;
+}
+.AppMenu__Icon__Active {
+  background: #282e36;
+}
+.AppMenu__Header .MuiSvgIcon-root {
+  color: #fff;
+}
+.AppMenu__List__Icon {
+  width: 40px;
+}
